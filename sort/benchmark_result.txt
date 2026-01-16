@@ -1,0 +1,36 @@
+goos: darwin
+goarch: arm64
+pkg: sortalgos
+cpu: Apple M3 Pro
+BenchmarkSortAlgorithms/QuickSort_Horare-100-12         	 1000000	      1094 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/QuickSort_Lomuto-100-12         	 1789752	       686.4 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/HeapSort-100-12                 	  219520	      5403 ns/op	    4528 B/op	     206 allocs/op
+BenchmarkSortAlgorithms/CountingSort-100-12             	   78325	     15406 ns/op	   83712 B/op	       3 allocs/op
+BenchmarkSortAlgorithms/ShellSort-100-12                	 1822482	       668.3 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/MergeSort-100-12                	  406791	      2951 ns/op	    6496 B/op	     100 allocs/op
+BenchmarkSortAlgorithms/BucketSort-100-12               	  955311	      1255 ns/op	    3376 B/op	      48 allocs/op
+BenchmarkSortAlgorithms/BubbleSort-100-12               	  403608	      2936 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/SelectSort-100-12               	  350851	      3313 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/InsertionSort-100-12            	  478773	      2581 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/BubbleSort-1000-12              	    2767	    429699 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/SelectSort-1000-12              	    4082	    309220 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/InsertionSort-1000-12           	    3453	    344705 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/QuickSort_Horare-1000-12        	   88779	     14346 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/QuickSort_Lomuto-1000-12        	  126180	      9658 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/HeapSort-1000-12                	   13003	     92285 ns/op	   49152 B/op	    1980 allocs/op
+BenchmarkSortAlgorithms/CountingSort-1000-12            	   68978	     17761 ns/op	   98304 B/op	       3 allocs/op
+BenchmarkSortAlgorithms/ShellSort-1000-12               	  109066	     11083 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/MergeSort-1000-12               	   31149	     38151 ns/op	   89536 B/op	    1000 allocs/op
+BenchmarkSortAlgorithms/BucketSort-1000-12              	   30822	     39036 ns/op	   26800 B/op	      75 allocs/op
+BenchmarkSortAlgorithms/InsertionSort-10000-12          	      36	  33521125 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/QuickSort_Horare-10000-12       	    4460	    259040 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/QuickSort_Lomuto-10000-12       	    4755	    236952 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/HeapSort-10000-12               	     952	   1253413 ns/op	  595428 B/op	   19503 allocs/op
+BenchmarkSortAlgorithms/CountingSort-10000-12           	   28842	     42380 ns/op	  245761 B/op	       3 allocs/op
+BenchmarkSortAlgorithms/ShellSort-10000-12              	    2210	    517302 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/MergeSort-10000-12              	    1791	    635002 ns/op	 1194631 B/op	   10000 allocs/op
+BenchmarkSortAlgorithms/BucketSort-10000-12             	     306	   3881245 ns/op	  309041 B/op	     111 allocs/op
+BenchmarkSortAlgorithms/BubbleSort-10000-12             	      21	  50588442 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortAlgorithms/SelectSort-10000-12             	      42	  28337758 ns/op	   81920 B/op	       1 allocs/op
+PASS
+ok  	sortalgos	42.630s
